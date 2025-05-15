@@ -13,21 +13,22 @@ The data used in this project comes from the ERA5 reanalysis dataset.
 
 ## Repository Structure
 
-Heat-dome-analysis/
-├── notebooks/ # Jupyter notebooks with all the code
+```
+Heat-dome-analysis
+├── notebooks # Jupyter notebooks with all the code
 │ └── anomaly_detection.ipynb
-├── data/ # Local ERA5 data and download scripts
+├── data # Local ERA5 data and download scripts
 │ ├── geopotential_bruxelles.nc
 │ ├── temp_bx.nc
 │ ├── téléchargement-géopotentiel.py
 │ └── téléchargement-température.py
-├── animations/ # MP4 animations of data evolution
-├── Supplements/ # Project documents
+├── animations # MP4 animations of data evolution
+├── Supplements # Project documents
 │ ├── 2021 Heat Wave.pdf
 │ └── Project.pdf
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
-
+```
 
 ## Getting Started
 
@@ -47,7 +48,7 @@ git clone https://github.com/clemence-g/Heat-dome-analysis.git
 pip install -r requirements.txt
 ```
 
-3.Download ERA5 data for the Northern Hemisphere. To set up your CDS API key, follow the instructions at:
+3. Download ERA5 data for the Northern Hemisphere. To set up your CDS API key, follow the instructions at:
 [https://cds.climate.copernicus.eu/how-to-api]
 
 Use the téléchargement-géopotentiel.py and téléchargement-température.py scripts to retrieve the required data.
