@@ -16,7 +16,8 @@ The data used in this project comes from the ERA5 reanalysis dataset.
 ```
 Heat-dome-analysis
 ├── notebooks # Jupyter notebooks with all the code
-│ └── anomaly_detection.ipynb
+│ └── projet-Dômes-chaleur.ipynb
+│ └── projet-Dômes-chaleur.pdf
 ├── data # Local ERA5 data and download scripts
 │ ├── geopotential_bruxelles.nc
 │ ├── temp_bx.nc
@@ -25,7 +26,7 @@ Heat-dome-analysis
 ├── animations # MP4 animations of data evolution
 ├── Supplements # Project documents
 │ ├── 2021 Heat Wave.pdf
-│ └── Project.pdf
+│ └──Identification-et-analyse-de-dômes-de-chaleur-sur-base-des-anomalies-de-géopotentiel-et-de-température.pdf
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
 ```
